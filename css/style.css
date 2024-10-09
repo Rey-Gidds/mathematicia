@@ -64,7 +64,7 @@ button{
     box-shadow: 10px 10px 2opx rgb(107, 116, 243);
     border-radius: 20px;
     width: 650px;
-    background:burlywood;
+    background: green;
     outline: auto;
     outline-style:inset;
     margin-left: 25%;
@@ -121,4 +121,11 @@ img:hover{
 }
 iframe{
     border-radius: 20px;
+}
+.next_button{
+    transition: color 0.50s;
+    color: white;
+}
+.next_button:hover{
+    color: rgb(116, 114, 114);
 }
