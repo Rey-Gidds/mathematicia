@@ -7,6 +7,9 @@ html,body{
     width: 99.1%;
     height: 100%;
 }
+ol{
+    margin-left: 20px ;
+}
 #main-heading{
     background: linear-gradient(100deg , blue , green);
     margin: 10;
