@@ -132,3 +132,18 @@ iframe{
 .next_button:hover{
     color: rgb(116, 114, 114);
 }
+form{
+    background: whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 60px;
+    border: black dashed ;
+    border-radius: 20px;
+    width: auto;
+}
+.form-heading{
+    border-radius: 20px;;
+    color: rgb(8, 8, 8);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+}
