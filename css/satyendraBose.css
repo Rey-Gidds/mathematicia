@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+iframe{
+    margin-top: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    float: right;
+    margin-left: 20px;
+}
 html,body{
     background-color: beige;
     width: 100%;
