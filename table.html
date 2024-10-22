@@ -4,29 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .header_container{
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 100px;
+            border-radius: 50px;
+            background: lightblue;
+            color: rgb(154, 142, 3);
+            display: flex;
+            justify-content: space-between;
+        }
+        .header_container .header_menu{
+            margin: 10px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        img{
+            height: 200px;
+            width: 400px;
+        }
+        .image{
+            height: 200px;
+            width: 400px;
+            position: relative;
+            border: 2px;
+        }
+        .image p{
+            position: absolute;
+            font-size: 50px;
+            top: 18%;
+            left: 50%;
+            opacity: 1;
+            transform: translate(-50% , -50%);
+            transition: opacity 0.20s;
+        }
+        .image p:hover{
+            opacity: 1;
+        }
+    </style>
 </head>
 <body>
-    <h1>Form</h1>
-    <form>
-    <label>Name:</label>
-    <input type="text" name="name"/>
-    <br><br>
-    <label style="float: left; margin-right: 5px">Address: </label>
-    <textarea cols = 50 rows="5"></textarea>
-    <br><br>
-    <label>Gender: &nbsp;</label>
-    <label>male</label>
-    <input type="radio" name="gender"/>
-    &nbsp;
-    <label>female</label>    
-    <input type="radio" name="gender"/>
-    <br><br>
-    <label>Hobbies: </label>&nbsp;
-    <label>swimming</label>
-    <input type="checkbox">&nbsp;
-    <label>football</label>
-    <input type="checkbox"><br><br>&nbsp;
-    <button type="submit">Submit</button>&nbsp;<button type="reset">Reset</button>
-</form>
-</body>
+    <div class="header_container">
+            <h1>Reyansh</h1>
+        <div class="header_menu">
+            <h2>About</h2>&nbsp;&nbsp;&nbsp;
+            <h2>Shop</h2>&nbsp;&nbsp;&nbsp;
+            <h2>Help</h2>&nbsp; 
+        </div>
+    </div>
+    <div class="container">
+    <div class="image">
+        <img src="images/angles.jpg" height="200px" width="400px">
+        <P>1.</P>
+    </div>
+    <div class="image">
+        <img src="images/angles.jpg" height="200px" width="400px">
+        <P>2.</P>
+    </div>
+    <div class="image">
+        <img src="images/angles.jpg">
+        <P>3.</P>
+    </div>
+    <div class="image">
+        <img src="images/angles.jpg">
+        <P>4.</P>
+    </div>
+    <div class="image">
+        <img src="images/angles.jpg">
+        <P>5.</P>
+    </div>
+    <div class="image">
+        <img src="images/angles.jpg">
+        <P>6.</P>
+    </div>
+    <div class="image">
+        <img src="images/angles.jpg">
+        <P>7.</P>
+    </div>
+    <div class="image">
+        <img src="images/angles.jpg">
+        <P>8.</P>
+    </div>
+    </div>
+    </body>
 </html>
